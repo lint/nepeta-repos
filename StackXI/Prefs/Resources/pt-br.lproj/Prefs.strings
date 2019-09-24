@@ -1,0 +1,13 @@
+{
+  "ENABLED" = "Ativar";
+  "SHOW_BUTTONS" = 'Mostrar os botões de "Recolher" / "Limpar"';
+  "USE_ICONS" = "Usar ícones ao invés de botões de texto";
+  "RESPRING" = "Respring";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Tem certeza que deseja resetar as configurações? Isto não pode ser desfeito.";
+  "OK" = "OK";
+  "CANCEL" = "Cancelar";
+  "RESET_PREFS" = "Redefinir configurações e Respring";
+  "SOURCE_CODE" = "Código fonte";
+  "DONATE_TO_NEPETA" = "Doar para Nepeta";
+  "SUPPORT_ME" = "Ajude-me!";
+}

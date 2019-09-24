@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>ENABLED</key>
+  <string>Enabled</string>
+  <key>ENABLED_BANNERS</key>
+  <string>Enabled in banners</string>
+  <key>RESPRING</key>
+  <string>Respring</string>
+  <key>ARE_YOU_SURE_TO_RESET_PREFS</key>
+  <string>Are you sure you want to reset all your preferences? This cannot be undone.</string>
+  <key>OK</key>
+  <string>OK</string>
+  <key>CANCEL</key>
+  <string>Cancel</string>
+  <key>RESET_PREFS</key>
+  <string>Restore default settings and respring</string>
+  <key>FROMDERIK_TWITTER</key>
+  <string>@Fr0mDerik (Twitter)</string>
+  <key>FROMDERIK_SUBTITLE</key>
+  <string>designer, developer of Modern for iOS 10</string>
+  <key>GITHUB</key>
+  <string>Github</string>
+  <key>SOURCE_CODE</key>
+  <string>Source code</string>
+  <key>DONATE_TO_NEPETA</key>
+  <string>Donate to Nepeta</string>
+  <key>SUPPORT_ME</key>
+  <string>Support me!</string>
+</dict>
+
+</plist>

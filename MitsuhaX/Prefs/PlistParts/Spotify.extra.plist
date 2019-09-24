@@ -1,0 +1,28 @@
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>io.c0ldra1n.mitsuhaxi-prefs</string>
+			<key>label</key>
+			<string>Ignore ColorFlow</string>
+			<key>key</key>
+			<string>MSHSpotifyIgnoreColorFlow</string>
+			<key>alternateColors</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>io.c0ldra1n.mitsuhaxi-prefs</string>
+			<key>label</key>
+			<string>Cover art bug fix</string>
+			<key>key</key>
+			<string>MSHSpotifyEnableCoverArtBugFix</string>
+			<key>alternateColors</key>
+			<true/>
+		</dict>

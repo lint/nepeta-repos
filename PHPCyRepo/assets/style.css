@@ -1,0 +1,21 @@
+body {
+  font-family: "SF Pro Display", "SF Pro", "Helvetica Neue", "Roboto", "Segoe UI", Helvetica, Arial, Verdana, sans-serif;
+  text-align: center;
+}
+
+.button {
+  color: white;
+  background: #333;
+  text-decoration: none;
+  padding: 1rem;
+  display: inline-block;
+}
+
+.description {
+  margin-top: 2rem;
+}
+
+table {
+  max-width: 450px;
+  margin: 0 auto;
+}

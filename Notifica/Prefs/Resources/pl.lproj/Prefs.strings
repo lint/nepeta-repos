@@ -1,0 +1,30 @@
+{
+  "ENABLED" = "Włączony";
+  "SETTINGS" = "Ustawienia";
+
+  "PRESET" = "Zapisane ustawienia";
+  "NOTIFICATION_CENTER" = "Centrum powiadomień";
+  "NOTIFICATIONS" = "Powiadomienia";
+  "BANNERS" = "Banery";
+  "WIDGETS" = "Widgety";
+  "DETAILS" = "Szczegóły";
+  "NOW_PLAYING" = "Odtwarzacz";
+  "EXPERIMENTAL" = "Experimental settings";
+
+  "RESPRING" = "Respring";
+  "RESRPING_NEEDED" = "MUSISZ ZROBIĆ RESPRING PO ZMIANACH USTAWIEŃ.";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Na pewno chcesz zresetować wszytkie ustawienia? Ta akcja jest nieodwracalna.";
+  "OK" = "OK";
+  "CANCEL" = "Anuluj";
+  "RESET_PREFS" = "Przywróć ustawienia domyślne i wykonaj respring";
+  "SOURCE_CODE" = "Kod źródłowy";
+  "DONATE_TO_NEPETA" = "Wspomóź Nepeta";
+  "SUPPORT_ME" = "Wspomóź mnie!";
+  "TEST_NOTIFICATIONS" = "Test powiadomień";
+  "TEST_BANNER" = "Test banerów";
+  "SAVE_SETTINGS" = "Zapisz ustawienia";
+  "SHARE_SETTINGS" = "Udostępnij ustawienia";
+  "IMPORT_SETTINGS" = "Zaimportuj udostępnione ustawienia";
+  "COPY_N_TO_B" = "Copy: Notifications -> Banners";
+  "COPY_B_TO_N" = "Copy: Banners -> Notifications";
+}

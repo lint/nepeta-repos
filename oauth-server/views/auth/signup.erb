@@ -1,0 +1,36 @@
+<div class="flex-center full-height">
+  <div>
+    <div class="login-form">
+      <h1 class="light-text"><%= provider_name %></h1>
+      <% if defined? error %>
+      <div class="error">
+        <%= error %>
+      </div>
+      <% end %>
+      <form action="/auth/signup" method="POST">
+        <%== csrf_tag %>
+        <% if not invite_required or (defined? params and params.key?('invite')) %>
+        <div class="input-group">
+          <input type="text" name="username" placeholder="Username"
+          <% if defined? params and params.key?('username') %><%= params['username'] %><% end %> required />
+          <input type="password" name="password" placeholder="Password" required />
+          <input type="password" name="password_confirmation" placeholder="Confirm password" required />
+          <% if defined? params and params.key?('invite') %>
+          <input type="hidden" name="invite" value="<%= params['invite'] %>" />
+          <% end %>
+        </div>
+        <div>
+          <button type="submit">Sign up</button>
+        </div>
+        <% else %>
+        <div class="input-group">
+          <input type="text" name="invite" placeholder="Invite" required />
+        </div>
+        <div>
+          <button type="submit">Proceed</button>
+        </div>
+        <% end%>
+      </form>
+    </div>
+  </div>
+</div>

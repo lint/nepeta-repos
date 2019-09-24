@@ -1,0 +1,18 @@
+{
+  "BACKGROUND_COLOR" = "Kolor tła";
+  "HEADER_TEXT_COLOR" = "Kolor tekstu nagłówka";
+  "CORNER_RADIUS" = "Promień zaokrąglenia rogów";
+  "OUTLINE" = "Ramka";
+  "THICKNESS" = "Grubość";
+
+  "DEFAULT" = "Domyślny";
+  "DYNAMIC" = "Dynamiczny";
+  "CUSTOM" = "Własny";
+  "CUSTOM_COLOR" = "Własny kolor";
+
+  "BACKGROUND_BLUR_MODE" = "Tryb rozmycia tła";
+  "DARK" = "Czarny";
+  "LIGHT" = "Jasny";
+  "BACKGROUND_BLUR_OPACITY" = "Przeźroczystość rozmycia tła";
+  "BACKGROUND_BLUR_COLOR_OPACITY" = "Alpha koloru rozmycia tła";
+}

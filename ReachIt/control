@@ -1,0 +1,9 @@
+Package: me.nepeta.reachit
+Name: ReachIt
+Depends: mobilesubstrate, ws.hbang.common (>= 1.13), firmware (>= 11.0)
+Version: 0.1.2
+Architecture: iphoneos-arm
+Description: Reachability music player
+Maintainer: Nepeta
+Author: Nepeta
+Section: Tweaks

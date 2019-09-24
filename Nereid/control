@@ -1,0 +1,9 @@
+Package: me.nepeta.nereid
+Name: Nereid
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), me.nepeta.libcolorpicker | org.thebigboss.libcolorpicker (>= 1.6.3), me.nepeta.libnepeta, firmware (>= 11.0)
+Version: 0.1.8-1
+Architecture: iphoneos-arm
+Description: Lock screen music player redesign
+Maintainer: Nepeta
+Author: Nepeta
+Section: Tweaks

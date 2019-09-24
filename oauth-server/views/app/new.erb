@@ -1,0 +1,21 @@
+<div class="flex-center full-height">
+  <div>
+    <div class="login-form">
+      <h1><%= provider_name %></h1>
+      <% if defined? error %>
+      <div class="error">
+        <%= error %>
+      </div>
+      <% end %>
+      <form action="/app/new" method="POST">
+        <%== csrf_tag %>
+        <div class="input-group">
+          <input type="text" name="name" placeholder="Name" required />
+        </div>
+        <div>
+          <button type="submit">Create</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

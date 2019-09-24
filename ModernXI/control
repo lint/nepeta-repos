@@ -1,0 +1,9 @@
+Package: io.ominousness.modernxi
+Name: ModernXI
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), applist, com.rpetrich.rocketbootstrap
+Version: 0.1.3
+Architecture: iphoneos-arm
+Description: A tweak that does something weird to notifications.
+Maintainer: Nepeta
+Author: Nepeta
+Section: Tweaks

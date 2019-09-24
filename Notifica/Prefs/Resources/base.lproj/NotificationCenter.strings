@@ -1,0 +1,9 @@
+{
+  "HIDE_NO_OLDER" = "Hide \"No older notifications\"";
+  "IDLE_TIMER" = "Screen off timer (Lockscreen)";
+  "VERTICAL_OFFSET" = "Vertical offset";
+  "VERTICAL_OFFSET_NOTIFICATIONS" = "Vertical offset: Notifications";
+  "VERTICAL_OFFSET_NOW_PLAYING" = "Vertical offset: Now Playing";
+  "PULL_TO_CLEAR_ALL" = "Pull to clear all notifications";
+	"NOTIFICATION_SPACING" = "Notification spacing";
+}

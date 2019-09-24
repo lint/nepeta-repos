@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = FlashyHUDPrefs;
+	cell = PSLinkCell;
+	detail = FLHPrefsListController;
+	isController = 1;
+	label = FlashyHUD;
+	icon = icon.png;
+    };
+}

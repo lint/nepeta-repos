@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = NanobannersPrefs;
+	cell = PSLinkCell;
+	detail = NANOPrefsListController;
+	isController = 1;
+	label = Nanobanners;
+	icon = icon.png;
+    };
+}

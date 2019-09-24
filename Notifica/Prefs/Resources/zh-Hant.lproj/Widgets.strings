@@ -1,0 +1,26 @@
+{
+	"BACKGROUND_BLUR_COLOR_OPACITY" = "背景虛化顏色透明度";
+	"BACKGROUND_BLUR_MODE" = "背景虛化模式";
+	"BACKGROUND_BLUR_OPACITY" = "背景虛化透明度";
+	"BACKGROUND_COLOR" = "背景顏色";
+	"CONTENT_TEXT_COLOR" = "內容文本顏色";
+	"CORNER_RADIUS" = "小部件圓角半徑";
+	"CUSTOM" = "自定義";
+	"CUSTOM_COLOR" = "自定義顏色";
+	"DARK" = "黑暗";
+	"DEFAULT" = "默認";
+	"DYNAMIC" = "動態";
+	"HEADER_TEXT_COLOR" = "標題文本顏色";
+	"HIDE_APP_NAME" = "隱藏應用名稱";
+	"HIDE_HEADER_BACKGROUND" = "隱藏標題背景";
+	"HIDE_ICON" = "隱藏應用圖標";
+	"LIGHT" = "明亮";
+	"MINIMALIST" = "極簡主義";
+	"MODERN" = "現代";
+	"STYLE" = "風格";
+	"GRADIENT" = "渐变";
+	"SECONDARY_COLOR" = "次要颜色";
+    "ICON_CORNER_RADIUS" = "图标角半径";
+    "OUTLINE" = "轮廓";
+    "THICKNESS" = "厚度";
+}

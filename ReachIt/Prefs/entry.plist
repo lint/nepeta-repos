@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = ReachItPrefs;
+	cell = PSLinkCell;
+	detail = RITPrefsListController;
+	isController = 1;
+	label = ReachIt;
+	icon = icon.png;
+    };
+}

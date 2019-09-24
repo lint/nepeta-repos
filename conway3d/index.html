@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset=utf-8>
+    <title>Conway</title>
+    <style>
+      body { margin: 0; overflow: hidden; }
+      canvas { width: 100%; height: 100%; }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  </head>
+  <body>
+    <script src="js/three.min.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/postprocessing.min.js"></script>
+    <script>
+
+      // config
+      var size = 24; // size of the board (width/depth)
+      var sizeY = 24; // height of the tower
+      var cubeHeight = 1;
+      var cubeSize = 1;
+      var horizontalSpace = 0.5;
+      var verticalSpace = 0.5;
+      var interval = 150;
+      var maxSteps = 8;
+      var maxColors = 30;
+      var centerHidden = true;
+      var disablePostprocessing = false;
+
+      // 3d: prepare three.js
+      var scene = new THREE.Scene();
+      var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 100);
+      var clock = new THREE.Clock();
+      
+      var renderer = new THREE.WebGLRenderer({ antialias: true });
+      renderer.setPixelRatio(window.devicePixelRatio);
+      renderer.setSize(window.innerWidth, window.innerHeight);
+      renderer.setClearColor(0x010101, 1);
+      document.body.appendChild(renderer.domElement);
+
+      // 3d: lightning
+      var light = new THREE.PointLight(0xffffff, 1.25, 20);
+      light.position.set(0,-10,0);
+      scene.add(light);
+
+      // page: toggle fullscreen on double click
+      renderer.domElement.addEventListener('dblclick', function () {
+        var doc = window.document;
+        var docEl = doc.documentElement;
+
+        var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+        var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+
+        if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
+          requestFullScreen.call(docEl);
+        }
+        else {
+          cancelFullScreen.call(doc);
+        }
+      });
+
+      // 3d: postprocessing.js filters
+      var composer = new POSTPROCESSING.EffectComposer(renderer);
+      var renderPass = new POSTPROCESSING.RenderPass(scene, camera);
+      composer.addPass(renderPass);
+
+      if (disablePostprocessing) {
+        renderPass.renderToScreen = true;
+      } else {
+        var bloomPass = new POSTPROCESSING.BloomPass({
+          intensity: 10
+        });
+        composer.addPass(bloomPass);
+
+        /*var godRaysPass = new POSTPROCESSING.GodRaysPass(scene, camera, light, {
+          samples: 15,
+          blurriness: 0,
+          exposure: 1
+        });
+        godRaysPass.dithering = true;
+        composer.addPass(godRaysPass);*/
+
+        var bokehPass = new POSTPROCESSING.BokehPass(camera, {
+          focus: 0.15,
+          dof: 0.01,
+          aperture: 0.015,
+          maxBlur: 0.1
+        });
+        composer.addPass(bokehPass);
+
+        var filmPass = new POSTPROCESSING.FilmPass({
+          scanlines: true,
+          scanlineIntensity: 0.1,
+          gridIntensity: 0.2,
+          scanlineDensity: 2,
+        });
+        composer.addPass(filmPass);
+        filmPass.renderToScreen = true;
+      }
+
+      // page: controls
+      var orbit = new THREE.OrbitControls(camera, renderer.domElement);
+      orbit.autoRotate = true;
+      orbit.autoRotateSpeed = 5;
+      orbit.target = new THREE.Vector3(0,0,0);
+
+      // 3d: the cube to clone
+      var geometry = new THREE.BoxGeometry(cubeSize, cubeHeight, cubeSize);
+
+      // game of life: board state
+      var currentGen = [];
+      var nextGen = [];
+
+      for (var i = 0; i < size; i++) {
+        currentGen[i] = [];
+        nextGen[i] = [];
+      }
+
+      // game of life: add some randomness
+      function randomGen(chance) {
+        for (var i = 0; i < size; i++) {
+          for (var j = 0; j < size; j++) {
+            currentGen[i][j] = (Math.random() < chance) ? 1 : ((currentGen[i][j]) ? currentGen[i][j] : 0);
+          }
+        }
+      }
+
+      // game of life: initial state
+      randomGen(0.5);
+
+      // game of life: calculate the next state per cell
+      function nextState(x, y) {
+        /* old counting method - doesn't go over the edges
+        var neighbors = ((x-1 >= 0 && y-1 >= 0) ? currentGen[x-1][y-1] : 0)
+          + ((x-1 >= 0) ? currentGen[x-1][y] : 0)
+          + ((x-1 >= 0 && y+1 < size) ? currentGen[x-1][y+1] : 0)
+          + ((y-1 >= 0) ? currentGen[x][y-1] : 0)
+          + ((y+1 < size) ? currentGen[x][y+1] : 0)
+          + ((x+1 < size && y-1 >= 0) ? currentGen[x+1][y-1] : 0)
+          + ((x+1 < size) ? currentGen[x+1][y] : 0)
+          + ((x+1 < size && y+1 < size) ? currentGen[x+1][y+1] : 0); */
+        
+        // new counting method - goes over the edges
+        var neighbors = currentGen[(size+x-1) % size][(size+y-1) % size]
+        + currentGen[(size+x-1) % size][y]
+        + currentGen[(size+x-1) % size][(size+y+1) % size]
+        + currentGen[x][(size+y-1) % size]
+        + currentGen[x][(size+y+1) % size]
+        + currentGen[(size+x+1) % size][(size+y-1) % size]
+        + currentGen[(size+x+1) % size][y]
+        + currentGen[(size+x+1) % size][(size+y+1) % size];
+
+        return (currentGen[x][y] && (neighbors == 2 || neighbors == 3)) || (!currentGen[x][y] && neighbors == 3);
+      }
+
+      // game of life: calculate the next generation
+      function nextGeneration() {
+        for (var i = 0; i < size; i++) {
+          for (var j = 0; j < size; j++) {
+            nextGen[i][j] = nextState(i, j);
+          }
+        }
+
+        for (var i = 0; i < size; i++) {
+          for (var j = 0; j < size; j++) {
+            currentGen[i][j] = nextGen[i][j];
+          }
+        }
+      }
+      
+      // 3d: save meshes and materials so we can dispose them later on
+      var meshes = [];
+      var materials = [];
+
+      for (var i = 0; i < maxColors; i++) {
+        materials[i] = new THREE.MeshLambertMaterial({ color: "hsl(" + (i/maxColors)*360 + ", 50%, 30%)" });
+      }
+
+      var totalSpace = cubeSize + horizontalSpace;
+      var center = (size*(totalSpace))/2;
+      var globalY = 0;
+      var step = 0;
+      var color = 0;
+
+      // 3d: creates and removes cubes
+      function commit() {
+        camera.position.y += (cubeHeight + verticalSpace)/maxSteps;
+        light.position.y += (cubeHeight + verticalSpace)/maxSteps;
+
+        if (step == 0) {
+          if (meshes.length == sizeY) {
+            scene.remove(meshes[0]);
+            meshes[0].geometry.dispose();
+            meshes[0].material.dispose();
+            meshes[0] = undefined;
+            meshes.splice(0, 1);
+          }
+
+          globalY += verticalSpace + cubeHeight;
+          var temp = new THREE.Geometry();
+          for (var i = 0; i < size; i++) {
+            for (var j = 0; j < size; j++) {
+              if (currentGen[i][j] && !(centerHidden && i == size/2 && j == size/2)) {
+                var cube = new THREE.Mesh(geometry, null);
+                cube.position.y = globalY;
+                cube.position.x = (i*totalSpace) - center;
+                cube.position.z = -(j*totalSpace) + center;
+                cube.updateMatrix();
+                temp.mergeMesh(cube);
+              }
+            }
+          }
+          var mesh = new THREE.Mesh(temp, materials[color]);
+          color++;
+          if (color == maxColors) color = 0;
+          meshes.push(mesh);
+          scene.add(mesh);
+          nextGeneration();
+        }
+
+        step++;
+        if (step == maxSteps) step = 0;
+      }
+
+      // 3d: update the space
+      setInterval(commit, interval/maxSteps);
+      commit();
+
+      // game of life: add some randomness
+      setInterval(() => randomGen(0.1), interval * 100);
+      setInterval(() => randomGen(0.01), interval * 10);
+
+      // 3d: render
+      function render() {
+        requestAnimationFrame(render);
+        composer.render(clock.getDelta());
+        orbit.target.y = camera.position.y - 5;
+        orbit.update();
+      }
+      render();
+
+      // page: react to resize events
+      window.addEventListener('resize', function () {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+      }, false);
+
+      // page: add randomness when space is pressed
+      window.addEventListener('keypress', function (e) {
+        if (e.key == " ") randomGen(0.25);
+      });
+    </script>
+  </body>
+</html>

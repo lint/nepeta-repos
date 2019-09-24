@@ -1,0 +1,10 @@
+{
+  "DISABLE_IDLE_TIMER" = "Wyłącz automatyczne wyłączanie ekranu";
+  "EXPERIMENTAL_COLORS" = "Eksperymentalne obliczanie kolorów";
+  "DEFAULT" = "Default";
+  "EXPERIMENTAL" = "Experimental";
+  "AXON" = "Axon";
+  "HD_ICONS" = "Ikony HD/ze stylu";
+  "COLORIZE_SECTION" = "Automatyczne kolorowanie przycisków w iOS 12";
+  "DISABLE_ICON_SHADOW" = "Wyłącz cień ikon";
+}

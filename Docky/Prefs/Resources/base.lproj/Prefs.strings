@@ -1,0 +1,30 @@
+{
+  "ENABLED" = "Enabled";
+  "FIVE_ICONS" = "Five icons";
+  "BACKGROUND_ALPHA" = "Background opacity";
+  "DISABLED" = "Disabled";
+
+  "DOCK_MODE" = "Dock mode";
+  "DOCK_MODE_INFO" = "Double - always shows 2 rows
+Expandable - shows 2 rows when swiped up
+Infinite - basically Infinidock";
+  "DEFAULT" = "Default";
+  "DOUBLE" = "Double";
+  "EXPANDABLE" = "Expandable";
+  "INFINITE" = "Infinite";
+
+  "FORCE_STYLE" = "Force style";
+  "IPHONE_X" = "iPhone X";
+  "IPHONE_NON_X" = "Older iPhone";
+  
+  "INFINITE_SETTINGS" = "Infinite: settings";
+  "INFINITE_PAGING" = "Paging";
+  "INFINITE_SNAP" = "Snap to icon";
+  "INFINITE_SCROLLBAR" = "Scroll indicators";
+  "INFINITE_SPACING" = "Infinite: spacing";
+
+  "RESPRING" = "Respring";
+  "SOURCE_CODE" = "Source code";
+  "DONATE_TO_NEPETA" = "Donate to Nepeta";
+  "SUPPORT_ME" = "Support me!";
+}

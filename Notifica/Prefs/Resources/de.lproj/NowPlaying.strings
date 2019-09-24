@@ -1,0 +1,25 @@
+{
+  "BACKGROUND_COLOR" = "Hintergrundfarbe";
+  "HEADER_TEXT_COLOR" = "Textfarbe der Kopfzeile";
+  "CORNER_RADIUS" = "Eckenradius der Widgets";
+  "OUTLINE" = "Umrandung";
+  "THICKNESS" = "Dicke";
+
+  "STYLE" = "Stil";
+  "MODERN" = "Modern";
+  "MINIMALIST" = "Minimalistisch";
+  "HIDE_ICON" = "Icon verbergen";
+  "HIDE_APP_NAME" = "App-Namen verbergen";
+  "HIDE_HEADER_BACKGROUND" = "Kopfzeilenhintergrund verbergen";
+
+  "DEFAULT" = "Standard";
+  "DYNAMIC" = "Dynamisch";
+  "CUSTOM" = "Benutzerdefiniert";
+  "CUSTOM_COLOR" = "Benutzerdefinierte Farbe";
+
+  "BACKGROUND_BLUR_MODE" = "Hintergrundunschärfe-Modus";
+  "DARK" = "Dunkel";
+  "LIGHT" = "Hell";
+  "BACKGROUND_BLUR_OPACITY" = "Deckkraft der Hintergrundunschärfe";
+  "BACKGROUND_BLUR_COLOR_OPACITY" = "Alpha der Hintergrundunschärfenfarbe";
+}

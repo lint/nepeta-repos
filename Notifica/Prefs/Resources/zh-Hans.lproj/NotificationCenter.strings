@@ -1,0 +1,9 @@
+{
+	"HIDE_NO_OLDER" = "隐藏 \"没有较早通知\"";
+	"IDLE_TIMER" = "启用自动关闭屏幕 (锁屏界面)";
+	"VERTICAL_OFFSET" = "垂直偏移";
+	"VERTICAL_OFFSET_NOTIFICATIONS" = "垂直偏移: 通知";
+	"VERTICAL_OFFSET_NOW_PLAYING" = "垂直偏移: 正在播放";
+	"PULL_TO_CLEAR_ALL" = "下拉以清除所有通知";
+	"NOTIFICATION_SPACING" = "通知间隔";
+}

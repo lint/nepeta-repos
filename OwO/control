@@ -1,0 +1,9 @@
+Package: me.nepeta.owo
+Name: OwO
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>=11.0)
+Version: 0.2.2
+Architecture: iphoneos-arm
+Description: OwO what's this!?
+Maintainer: Nepeta
+Author: Nepeta
+Section: Tweaks

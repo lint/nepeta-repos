@@ -1,0 +1,12 @@
+{
+  "ENABLED" = "Enabled";
+  "DELAY" = "Delay";
+  "SCROLL_RATE" = "Scroll rate";
+  "CUSTOMIZATION_INFO" = "If you want to customize the look and feel of these banners, please install Notifica from https://repo.nepeta.me/";
+
+  "TEST_BANNER" = "Test banner";
+  "SOURCE_CODE" = "Source code";
+  "DONATE_TO_NEPETA" = "Donate to Nepeta";
+  "SUPPORT_ME" = "Support me!";
+  "RESPRING" = "Respring";
+}

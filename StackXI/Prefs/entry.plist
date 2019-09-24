@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = StackXIPrefs;
+	cell = PSLinkCell;
+	detail = SXIPrefsListController;
+	icon = icon.png;
+	isController = 1;
+	label = StackXI;
+    };
+}

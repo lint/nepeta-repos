@@ -1,0 +1,30 @@
+{
+  "BACKGROUND_COLOR" = "Kolor tła";
+  "HEADER_TEXT_COLOR" = "Kolor tekstu nagłówka";
+  "CONTENT_TEXT_COLOR" = "Kolor tekstu zawartości";
+  "CORNER_RADIUS" = "Promień zaokrąglenia rogów";
+  "ICON_CORNER_RADIUS" = "Promień zaokrąglenia ikon";
+  "OUTLINE" = "Ramka";
+  "THICKNESS" = "Grubość";
+
+  "STYLE" = "Styl";
+  "MODERN" = "Modern";
+  "MINIMALIST" = "Minimalist";
+  "HIDE_ICON" = "Ukryj ikonę";
+  "HIDE_APP_NAME" = "Ukryj nazwę aplikacji";
+  "HIDE_HEADER_BACKGROUND" = "Ukryj tło nagłówka";
+
+  "DEFAULT" = "Domyślny";
+  "DYNAMIC" = "Dynamiczny";
+  "CUSTOM" = "Własny";
+  "CUSTOM_COLOR" = "Własny kolor";
+
+  "GRADIENT" = "Gradient";
+  "SECONDARY_COLOR" = "Kolor przejścia";
+
+  "BACKGROUND_BLUR_MODE" = "Tryb rozmycia tła";
+  "DARK" = "Czarny";
+  "LIGHT" = "Jasny";
+  "BACKGROUND_BLUR_OPACITY" = "Przeźroczystość rozmycia tła";
+  "BACKGROUND_BLUR_COLOR_OPACITY" = "Alpha koloru rozmycia tła";
+}

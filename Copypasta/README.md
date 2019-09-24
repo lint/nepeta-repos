@@ -1,0 +1,3 @@
+# Copypasta
+
+Minimalist clipboard manager.

@@ -1,0 +1,9 @@
+Package: com.chilaxan.cuboid
+Name: Cuboid
+Depends: mobilesubstrate
+Version: 2.0.1
+Architecture: iphoneos-arm
+Description: Lightweight home screen layout manager.
+Maintainer: chilaxan & Nepeta
+Author: chilaxan & Nepeta
+Section: Tweaks

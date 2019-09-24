@@ -1,0 +1,24 @@
+{
+	"BACKGROUND_BLUR_COLOR_OPACITY" = "背景虚化颜色透明度";
+	"BACKGROUND_BLUR_MODE" = "背景虚化模式";
+	"BACKGROUND_BLUR_OPACITY" = "背景虚化透明度";
+	"BACKGROUND_COLOR" = "背景颜色";
+	"CENTER_CONTENTS" = "居中内容";
+	"CONTENT_TEXT_COLOR" = "内容文本颜色";
+	"CORNER_RADIUS" = "通知圆角半径";
+	"CUSTOM" = "自定义";
+	"CUSTOM_COLOR" = "自定义颜色";
+	"DARK" = "黑暗";
+	"DEFAULT" = "默认";
+	"DYNAMIC" = "动态";
+	"HEADER_TEXT_COLOR" = "标题文本颜色";
+	"HIDE_APP_NAME" = "隐藏应用名称";
+	"HIDE_ICON" = "隐藏应用图标";
+	"HIDE_X" = "隐藏关闭按钮";
+	"LIGHT" = "明亮";
+	"MINIMALIST" = "极简主义";
+	"MODERN" = "现代";
+	"NOTIFICATION_OPACITY" = "通知透明度";
+	"STYLE" = "风格";
+    "ICON_CORNER_RADIUS" = "图标角半径";
+}

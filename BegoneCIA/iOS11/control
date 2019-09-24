@@ -1,0 +1,10 @@
+Package: me.nepeta.begonecia-11
+Name: BegoneCIA (iOS 11 and 12)
+Version: 0.2.1-2
+Architecture: iphoneos-arm
+Description: CC toggle to disable microphone, camera and GPS.
+Depends: mobilesubstrate, com.opa334.ccsupport, ws.hbang.common (>= 1.11), firmware (>= 11.0), firmware (<= 12.4.1), applist
+Conflicts: me.nepeta.begonecia-10
+Maintainer: Nepeta <ominousness@protonmail.com>
+Author: Nepeta <ominousness@protonmail.com>
+Section: Tweaks

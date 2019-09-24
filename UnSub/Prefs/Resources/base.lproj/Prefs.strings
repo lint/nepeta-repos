@@ -1,0 +1,18 @@
+{
+  "FORCE_TOUCH_OPTION_ENABLED" = "Enable force touch UnSub option";
+
+  "DISABLE_IN" = "Select apps to disable tweak injection (Substrate/Substitute) in.";
+  "SELECT_APPS" = "Disable tweak injection in apps";
+
+  "BYPASS_JAILBREAK_DETECTION" = "Select apps to enable jailbreak detection bypass in.";
+  "SELECT_APPS_BYPASS" = "Bypass jailbreak detection (experimental)";
+
+  "RESPRING" = "Respring";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Are you sure you want to reset all your preferences? This cannot be undone.";
+  "OK" = "OK";
+  "CANCEL" = "Cancel";
+  "RESET_PREFS" = "Restore default settings and respring";
+  "SOURCE_CODE" = "Source code";
+  "DONATE_TO_NEPETA" = "Donate to Nepeta";
+  "SUPPORT_ME" = "Support me!";
+}

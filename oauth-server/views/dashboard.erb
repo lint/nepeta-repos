@@ -1,0 +1,71 @@
+<div class="wrap">
+  <div class="app">
+    <h1><%= provider_name %></h1>
+    <h2><%= user[:username] %></h2>
+    <h3><%= user[:role] %></h3>
+    <div class="boxes">
+      <div>
+        <h2>Quick actions</h2>
+        <a class="button" href="/me">Profile</a>
+        <a class="button" href="/auth/logout">Log out</a>
+      </div>
+      <div>
+        <h2>Authorized apps</h2>
+        <ul>
+          <% user.authorized_apps.each do |app| %>
+          <li><a href="/app/<%= hash_app(app.id) %>"><%= app.name %></a></li>
+          <% end %>
+        </ul>
+      </div>
+      <% if user.role == 'admin' or user.role == 'developer' %>
+      <div>
+        <h2>Your apps</h2>
+        <ul>
+          <% user.apps.each do |app| %>
+          <li><a href="/app/<%= hash_app(app.id) %>"><%= app.name %></a></li>
+          <% end %>
+        </ul>
+        <a class="button to-bottom" href="/app/new">New app</a>
+      </div>
+      <% end %>
+      <div>
+        <h2>Sessions</h2>
+        <ul>
+          <% user.sessions.each do |session| %>
+          <li><%= session.ip %> - <%= session.created_at %> - [log out button here]</li>
+          <% end %>
+        </ul>
+      </div>
+      <% if user.role == 'admin' %>
+      <div>
+        <h2>Invites</h2>
+        <ul>
+          <% invites.each do |invite| %>
+          <li><%= invite.token %> - Revoke</li>
+          <% end %>
+        </ul>
+        <form action="/invite/new" method="POST">
+          <%== csrf_tag %>
+          <button type="submit">New invite</button>
+        </form>
+      </div>
+      <div>
+        <h2>Users</h2>
+        <ul>
+          <% users.each do |user| %>
+          <li><a href="/user/<%= user.id %>"><%= user.username %></a></li>
+          <% end %>
+        </ul>
+      </div>
+      <div>
+        <h2>Apps</h2>
+        <ul>
+          <% apps.each do |app| %>
+          <li><a href="/app/<%= hash_app(app.id) %>"><%= app.name %></a></li>
+          <% end %>
+        </ul>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>

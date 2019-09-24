@@ -1,0 +1,9 @@
+Package: me.nepeta.launchtron
+Name: Launchtron
+Version: 0.1.4
+Architecture: iphoneos-arm
+Description: Fast circular app launcher
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 9.0), applist, com.rpetrich.rocketbootstrap
+Maintainer: Nepeta <ominousness@protonmail.com>
+Author: Nepeta <ominousness@protonmail.com>
+Section: Tweaks

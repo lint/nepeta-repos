@@ -1,0 +1,9 @@
+Package: me.nepeta.noidletimer
+Name: NoIdleTimer
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>=11.0)
+Version: 0.1.1
+Architecture: iphoneos-arm
+Description: Conditionally disable lock screen auto locking
+Maintainer: Nepeta
+Author: Nepeta
+Section: Tweaks

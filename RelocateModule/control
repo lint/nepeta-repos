@@ -1,0 +1,9 @@
+Package: me.nepeta.relocatemodule
+Name: Relocate Module (Control Center)
+Version: 0.1.1
+Architecture: iphoneos-arm
+Description: CC toggle for Relocate (GPS location spoofer).
+Depends: mobilesubstrate, com.opa334.ccsupport, ws.hbang.common (>= 1.11), firmware (>= 11.0), me.nepeta.relocate (>= 0.1.7)
+Maintainer: Nepeta <ominousness@protonmail.com>
+Author: Nepeta <ominousness@protonmail.com>
+Section: Tweaks

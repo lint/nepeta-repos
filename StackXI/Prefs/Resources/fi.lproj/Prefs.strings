@@ -1,0 +1,13 @@
+{
+  "ENABLED" = "Käytössä";
+  "SHOW_BUTTONS" = 'Näytä "Avaa" / "Tyhjennä kaikki" napit';
+  "USE_ICONS" = "Käytä kuvakkeita napeissa tekstin puolesta";
+  "RESPRING" = "Respring";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Oletko varma että haluat nollata asetukset? Tätä ei voi peruuttaa.";
+  "OK" = "OK";
+  "CANCEL" = "Cancel";
+  "RESET_PREFS" = "Palauta perusasetukset ja respringaa";
+  "SOURCE_CODE" = "Lähdekoodi";
+  "DONATE_TO_NEPETA" = "Lahjoita Nepeta:sille";
+  "SUPPORT_ME" = "Tue minua!";
+}

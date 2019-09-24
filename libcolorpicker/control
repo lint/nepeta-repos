@@ -1,0 +1,13 @@
+Package: me.nepeta.libcolorpicker
+Name: libcolorpicker-nepeta
+Depends: firmware (>= 9.0)
+Version: 1.6.2-3
+Architecture: iphoneos-arm
+Description: libcolorpicker with arm64e (A12) support
+Maintainer: Nepeta
+Author: Bailey Seymour
+Section: System
+Tag: role::developer
+Replaces: org.thebigboss.libcolorpicker
+Provides: org.thebigboss.libcolorpicker, org.thebigboss.libcolorpicker (=1.6.1)
+Conflicts: org.thebigboss.libcolorpicker

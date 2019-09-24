@@ -1,0 +1,10 @@
+Package: me.nepeta.slyd
+Name: Slyd (SlideToUnlock)
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0)
+Conflicts: me.nepeta.nottoday12, io.ijapija00.notodayview
+Version: 0.2.4
+Architecture: iphoneos-arm
+Description: Slide to unlock for iOS 11 and 12.
+Maintainer: Nepeta
+Author: Nepeta
+Section: Tweaks

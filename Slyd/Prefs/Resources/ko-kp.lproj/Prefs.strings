@@ -1,0 +1,17 @@
+{
+  "ENABLED" = "켜기";
+  "STU_TEXT" = "글자";
+  "SLIDE_TO_UNLOCK" = "밀어서 잠금해제";
+  "SHOW_CHEVRON" = "미는 그림기호 표시";
+  "DISABLE_HOME" = "자동단추를 눌러서 잠금해제 비활성화";
+  "DISABLE_SWIPE" = "위로 쓸어올려서 잠금해제 비활성화";
+  "RESPRING" = "봄판 재시동";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "동무, 설정 자료파일 초기화를 진행하시겠습네까? 이 작업은 되돌릴 수 없습네다.";
+  "OK" = "확인";
+  "CANCEL" = "취소";
+  "RESET_PREFS" = "설정 자료파일 초기화 후 봄판 재시동";
+  "GITHUB" = "저장 집선기";
+  "SOURCE_CODE" = "원천코드";
+  "DONATE_TO_NEPETA" = "네페타 동무에게 기부";
+  "SUPPORT_ME" = "지원하시라우!";
+}

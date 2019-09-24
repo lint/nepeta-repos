@@ -1,0 +1,9 @@
+Package: me.nepeta.2x2
+Name: 2x2
+Depends: mobilesubstrate
+Version: 0.1.1
+Architecture: iphoneos-arm
+Description: 2x2 folders
+Maintainer: Nepeta <ominousness@protonmail.com>
+Author: Nepeta <ominousness@protonmail.com>
+Section: Tweaks

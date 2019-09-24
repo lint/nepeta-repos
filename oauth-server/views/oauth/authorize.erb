@@ -1,0 +1,34 @@
+<div class="flex-center full-height">
+  <div>
+    <div class="login-form">
+      <h1 class="light-text"><%= provider_name %></h1>
+      <h2>Would you like to sign into <%= app[:name] %>?</h2>
+      <div>
+        <form action="/oauth/continue" method="POST">
+          <%== csrf_tag %>
+          <input type="hidden" name="allow" value="yes">
+          <input type="hidden" name="redirect" value="<%= params['redirect_uri'] %>">
+          <input type="hidden" name="client_id" value="<%= params['client_id'] %>">
+          <% if params.key?('state') %>
+          <input type="hidden" name="state" value="<%= params['state'] %>">
+          <% else %>
+          <input type="hidden" name="state" value="">
+          <% end %>
+          <button type="submit">Yes</button>
+        </form>
+        <form action="/oauth/continue" method="POST">
+          <%== csrf_tag %>
+          <input type="hidden" name="allow" value="no">
+          <input type="hidden" name="redirect" value="<%= params['redirect_uri'] %>">
+          <input type="hidden" name="client_id" value="<%= params['client_id'] %>">
+          <% if params.key?('state') %>
+          <input type="hidden" name="state" value="<%= params['state'] %>">
+          <% else %>
+          <input type="hidden" name="state" value="">
+          <% end %>
+          <button type="submit" class="red">No</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

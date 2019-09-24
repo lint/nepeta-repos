@@ -1,0 +1,9 @@
+Package: me.nepeta.launchtron.action
+Name: Launchtron Activator Action
+Version: 0.1.1
+Architecture: iphoneos-arm
+Description: Activator action for Launchtron
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 9.0), libactivator, me.nepeta.launchtron
+Maintainer: Nepeta <ominousness@protonmail.com>
+Author: Nepeta <ominousness@protonmail.com>
+Section: Tweaks

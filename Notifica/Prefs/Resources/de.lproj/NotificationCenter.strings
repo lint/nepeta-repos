@@ -1,0 +1,9 @@
+{
+  "HIDE_NO_OLDER" = "Verberge \"Keine älteren Mitteilungen\"";
+  "IDLE_TIMER" = "Automatische Sperrung des Sperrbildschirms";
+  "VERTICAL_OFFSET" = "Vertikaler Versatz";
+  "VERTICAL_OFFSET_NOTIFICATIONS" = "VVertikaler Versatz: Mitteilungen";
+  "VERTICAL_OFFSET_NOW_PLAYING" = "Vertikaler Versatz: Wiedergabe";
+  "PULL_TO_CLEAR_ALL" = "Ziehen, um alle Mitteilungen zu löschen";
+  "NOTIFICATION_SPACING" = "Abstand der Mitteilungen";
+}

@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = ModernXIPrefs;
+	cell = PSLinkCell;
+	detail = MXIPrefsListController;
+	isController = 1;
+	label = ModernXI;
+	icon = icon.png;
+    };
+}

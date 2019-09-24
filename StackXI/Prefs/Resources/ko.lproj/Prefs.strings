@@ -1,0 +1,25 @@
+{
+  "ENABLED" = "활성화";
+  "SHOW_BUTTONS" = '"간략히 보기" / "지우기" 버튼 표시';
+  "RESPRING" = "리스프링";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "설정파일 초기화를 진행하시겠습니까? 이 작업은 되돌릴 수 없습니다.";
+  "OK" = "확인";
+  "CANCEL" = "취소";
+  "RESET_PREFS" = "설정파일 초기화 후 리스프링";
+  "SOURCE_CODE" = "소스코드";
+  "DONATE_TO_NEPETA" = "Nepeta에게 기부";
+  "SUPPORT_ME" = "지원해 주세요!";
+  "USE_ICONS" = "아이콘 사용하기";
+  "OFF" = "끄기";
+  "ICON_THEME" = "아이콘 테마";
+  "GROUP_BY" = "아래로 그룹하기";
+  "GROUP_BY_APP" = "앱";
+  "GROUP_BY_THREAD" = "제목";
+  "SHOW_CLEAR_ALL" = '모든 알림 위에 "모두 지우기" 버튼 표시하기';
+  "ANIMATION_SPEED" = '애니메이션 속도';
+  "BUTTON_ICON_STYLE" = '버튼 아이콘 색상';
+  "BUTTON_ICON_TRANSPARENT" = '투명';
+  "BUTTON_ICON_DARK" = '어두운';
+  "BUTTON_ICON_LIGHT" = '밝은';
+  "FORCE_OLD_BEHAVIOR" = '강제로 모든 알림을 잠금화면에 표시하기';
+}

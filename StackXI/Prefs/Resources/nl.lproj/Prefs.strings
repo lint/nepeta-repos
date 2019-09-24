@@ -1,0 +1,13 @@
+{
+  "ENABLED" = "Ingeschakeld";
+  "SHOW_BUTTONS" = 'Toon "Voeg Samen" / "Verwijder" knoppen';
+  "USE_ICONS" = "Gebruik icoontjes in plaats van tekst voor knoppen";
+  "RESPRING" = "Herstart Springboard";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Weet je zeker dat je alle voorkeuren wilt resetten? Dit kan niet ongedaan worden gemaakt.";
+  "OK" = "OK";
+  "CANCEL" = "Annuleren";
+  "RESET_PREFS" = "Zet terug naar standaardinstellingen, en herstart springboard";
+  "SOURCE_CODE" = "BronCode";
+  "DONATE_TO_NEPETA" = "Doneer naar Nepeta";
+  "SUPPORT_ME" = "Help Me!";
+}

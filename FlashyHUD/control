@@ -1,0 +1,9 @@
+Package: me.nepeta.flashyhud
+Name: FlashyHUD
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), me.nepeta.libcolorpicker, firmware (>= 9.0)
+Version: 0.2.2
+Architecture: iphoneos-arm
+Description: Minimalist volume HUD
+Maintainer: Nepeta
+Author: Nepeta
+Section: Tweaks

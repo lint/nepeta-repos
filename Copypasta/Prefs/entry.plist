@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = CopypastaPrefs;
+	cell = PSLinkCell;
+	detail = CPAPrefsListController;
+	isController = 1;
+	label = Copypasta;
+	icon = icon.png;
+    };
+}

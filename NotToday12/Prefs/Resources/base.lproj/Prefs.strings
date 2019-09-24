@@ -1,0 +1,17 @@
+{
+  "ENABLED" = "Enabled";
+  "ENABLED_COVER_SHEET" = "Cover sheet/lock screen";
+  "ENABLED_HOME_SCREEN" = "Home screen";
+
+  "RESPRING" = "Respring";
+  "RESRPING_NEEDED" = "YOU WILL HAVE TO RESPRING YOUR DEVICE AFTER EDITING SETTINGS HERE.";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Are you sure you want to reset all your preferences? This cannot be undone.";
+  "OK" = "OK";
+  "CANCEL" = "Cancel";
+  "RESET_PREFS" = "Restore default settings and respring";
+  "SOURCE_CODE" = "Source code";
+  "DONATE_TO_NEPETA" = "Donate to Nepeta";
+  "SUPPORT_ME" = "Support me!";
+  "TEST_NOTIFICATIONS" = "Test notifications";
+  "TEST_BANNER" = "Test banner";
+}

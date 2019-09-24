@@ -1,0 +1,12 @@
+{
+  "ENABLED" = "Activado";
+  "SHOW_BUTTONS" = 'Mostrar "Colapsado" / botones "Limpiar todo" ';
+  "RESPRING" = "Respring";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "¿Estás seguro de que deseas restablecer todas tus preferencias? Esto no se puede deshacer.";
+  "OK" = "OK";
+  "CANCEL" = "Cancelar";
+  "RESET_PREFS" = "Restaurar la configuracion por defecto y respring";
+  "SOURCE_CODE" = "Codigo fuente";
+  "DONATE_TO_NEPETA" = "Donar a Nepeta";
+  "SUPPORT_ME" = "Apoyame!";
+}

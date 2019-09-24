@@ -1,0 +1,25 @@
+{
+  "BACKGROUND_COLOR" = "Background color";
+  "HEADER_TEXT_COLOR" = "Header text color";
+  "CORNER_RADIUS" = "Widget corner radius";
+  "OUTLINE" = "Outline";
+  "THICKNESS" = "Thickness";
+
+  "STYLE" = "Style";
+  "MODERN" = "Modern";
+  "MINIMALIST" = "Minimalist";
+  "HIDE_ICON" = "Hide icon";
+  "HIDE_APP_NAME" = "Hide app name";
+  "HIDE_HEADER_BACKGROUND" = "Hide header background";
+
+  "DEFAULT" = "Default";
+  "DYNAMIC" = "Dynamic";
+  "CUSTOM" = "Custom";
+  "CUSTOM_COLOR" = "Custom color";
+
+  "BACKGROUND_BLUR_MODE" = "Background blur mode";
+  "DARK" = "Dark";
+  "LIGHT" = "Light";
+  "BACKGROUND_BLUR_OPACITY" = "Background blur opacity";
+  "BACKGROUND_BLUR_COLOR_OPACITY" = "Background blur color alpha";
+}

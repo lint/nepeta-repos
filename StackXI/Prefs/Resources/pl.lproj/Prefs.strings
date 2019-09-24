@@ -1,0 +1,25 @@
+{
+  "ENABLED" = "Włącz";
+  "SHOW_BUTTONS" = 'Pokaż przyciski "Wymaż wszystkie"/"Zwiń"';
+  "USE_ICONS" = "Użyj ikon zamiast tekstu w przyciskach";
+  "RESPRING" = "Respring";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Na pewno chcesz zresetować wszytkie ustawienia? Ta akcja jest nieodwracalna.";
+  "OK" = "OK";
+  "CANCEL" = "Anuluj";
+  "RESET_PREFS" = "Przywróć ustawienia domyślne i wykonaj respring";
+  "SOURCE_CODE" = "Kod źródłowy";
+  "DONATE_TO_NEPETA" = "Wspomóź Nepeta";
+  "SUPPORT_ME" = "Wspomóź mnie!";
+  "OFF" = "Wyłączone";
+  "ICON_THEME" = "Styl ikon";
+  "GROUP_BY" = "Grupuj powiadomienia";
+  "GROUP_BY_APP" = "Aplikacja";
+  "GROUP_BY_THREAD" = "Wątek";
+  "SHOW_CLEAR_ALL" = 'Pokaż przycisk "Wymaż wszystkie" nad powiadomieniami';
+  "ANIMATION_SPEED" = 'Szybkość animacji';
+  "BUTTON_ICON_STYLE" = 'Kolor ikon w przyciskach';
+  "BUTTON_ICON_TRANSPARENT" = 'Przeźroczyste';
+  "BUTTON_ICON_DARK" = 'Ciemne';
+  "BUTTON_ICON_LIGHT" = 'Jasne';
+  "FORCE_OLD_BEHAVIOR" = 'Wymuś pokazywanie wszystkich powiadomień na ekranie blokady';
+}

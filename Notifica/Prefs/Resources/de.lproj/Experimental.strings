@@ -1,0 +1,10 @@
+{
+  "DISABLE_IDLE_TIMER" = "Deaktiviere automatische Sperrung des Sperrbildschirms";
+  "EXPERIMENTAL_COLORS" = "Experimentelle Farbberechnung";
+  "DEFAULT" = "Default";
+  "EXPERIMENTAL" = "Experimental";
+  "AXON" = "Axon";
+  "HD_ICONS" = "HD/Theme Icons";
+  "COLORIZE_SECTION" = "iOS 12 Buttons einfärben";
+  "DISABLE_ICON_SHADOW" = "Icon-Schatten deaktivieren";
+}

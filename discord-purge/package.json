@@ -1,0 +1,10 @@
+{
+  "name": "discord-purge",
+  "version": "1.0.0",
+  "dependencies": {
+    "inquirer": "^5.2.0",
+    "progress": "^2.0.0",
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5"
+  }
+}

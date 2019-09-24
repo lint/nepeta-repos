@@ -1,0 +1,5 @@
+%{"crypt3": {:hex, :crypt3, "1.0.4", "ce5ee4b2b16f9eea7b1793ff73bce987c5f4043118ea384a9f5ee910a4793b32", [], [], "hexpm"},
+  "earmark": {:hex, :earmark, "1.2.4", "99b637c62a4d65a20a9fb674b8cffb8baa771c04605a80c911c4418c69b75439", [], [], "hexpm"},
+  "ex_doc": {:hex, :ex_doc, "0.18.1", "37c69d2ef62f24928c1f4fdc7c724ea04aecfdf500c4329185f8e3649c915baf", [], [{:earmark, "~> 1.1", [hex: :earmark, repo: "hexpm", optional: false]}], "hexpm"},
+  "iconv": {:hex, :iconv, "1.0.6", "3b424a80039059767f1037dc6a49ff07c2f88df14068c16dc938c4f377a77b4c", [:rebar3], [{:p1_utils, "1.0.10", [hex: :p1_utils, repo: "hexpm", optional: false]}], "hexpm"},
+  "p1_utils": {:hex, :p1_utils, "1.0.10", "a6d6927114bac79cf6468a10824125492034af7071adc6ed5ebc4ddb443845d4", [:rebar3], [], "hexpm"}}

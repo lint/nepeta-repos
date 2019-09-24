@@ -1,0 +1,53 @@
+{
+  "ENABLED" = "Enabled";
+  "COLOR" = "Color";
+
+  "AUTOMATIC" = "Automatic";
+  "DEFAULT" = "Default";
+  "DYNAMIC" = "Dynamic";
+  "CUSTOM" = "Custom";
+
+  "SETTINGS" = "Settings";
+  "ARTWORK_AS_BACKGROUND" = "Artwork as background";
+  "HIDE_TIME_LABELS" = "Hide elapsed/remaining time text";
+  "HIDE_VOLUME_SLIDER" = "Hide volume bar";
+  "REMOVE_ALBUM_NAME" = "Remove album name";
+  "CHANGE_CONTROLS_LAYOUT" = "Make controls smaller";
+  "SHOW_MIDDLE_BUTTON_CIRCLE" = "Show circle around the play/pause button";
+  "REPLACE_ICONS" = "Replace icons";
+  "SWAP_ARTIST_AND_TITLE" = "Swap artist name and title";
+  "COLORIZE_DATE_AND_TIME" = "Colorize date and time";
+  "HAPTIC_FEEDBACK" = "Haptic feedback";
+  "HIDE_CLOCK_WHILE_PLAYING" = "Hide clock while playing";
+  "ALWAYS_SHOW_PLAYER" = "Always show the player";
+
+  "BLUR_RADIUS" = "Artwork blur radius";
+  "DARKEN" = "Artwork darken";
+
+  "EXTRA_BUTTONS" = "Extra buttons";
+  "EXTRA_BUTTON_LEFT" = "Extra button: left";
+  "EXTRA_BUTTON_RIGHT" = "Extra button: right";
+
+  "DISABLED" = "Disabled";
+  "SHUFFLE" = "Shuffle";
+  "REPEAT" = "Repeat";
+  "SKIP_15" = "Skip 15 seconds";
+  "BACK_15" = "Go back 15 seconds";
+  "DEVICES" = "Devices";
+
+  "ARTWORK_MODE" = "Artwork mode";
+  "FILL" = "Scale to fill";
+  "FIT" = "Shrink to fit";
+  "BACKGROUND_COLOR" = "Background color";
+
+  "SOURCE_CODE" = "Source code";
+  "DONATE_TO_NEPETA" = "Donate to Nepeta";
+  "SUPPORT_ME" = "Support me!";
+  "RESET_PREFS" = "Restore default settings and respring";
+  "RESPRING" = "Respring";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Are you sure you want to reset all your preferences? This cannot be undone.";
+  "OK" = "OK";
+  "CANCEL" = "Cancel";
+  "LICENSING_BLUR" = "Licensing: ios-darken-image-with-cifilter";
+  "LICENSING_BLUR_INFO" = "ios-darken-image-with-cifilter by Bryan Clark.";
+}

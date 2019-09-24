@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = KonbanPrefs;
+	cell = PSLinkCell;
+	detail = KONPrefsListController;
+	isController = 1;
+	label = Konban;
+	icon = icon.png;
+    };
+}

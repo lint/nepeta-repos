@@ -1,0 +1,9 @@
+{
+    entry = {
+	bundle = NotToday12Prefs;
+	cell = PSLinkCell;
+	detail = NTPrefsListController;
+	isController = 1;
+	label = NotToday12;
+    };
+}

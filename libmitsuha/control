@@ -1,0 +1,9 @@
+Package: me.nepeta.libmitsuha
+Name: libmitsuha
+Version: 0.1.9
+Architecture: iphoneos-arm
+Description: Audio visualizer library
+Maintainer: Nepeta
+Author: Nepeta
+Section: Development
+Depends: io.ominousness.ass (>= 1.0.1), firmware (>= 9.0)

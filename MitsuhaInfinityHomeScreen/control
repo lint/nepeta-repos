@@ -1,0 +1,9 @@
+Package: me.nepeta.mitsuhainfinity-homescreen
+Name: Mitsuha Infinity - Home Screen
+Depends: mobilesubstrate, me.nepeta.mitsuhainfinity
+Version: 0.1.1
+Architecture: iphoneos-arm
+Description: Audio visualizer for the home screen
+Maintainer: Nepeta
+Author: Nepeta
+Section: Tweaks

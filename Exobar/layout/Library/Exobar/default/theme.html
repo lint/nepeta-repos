@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        html,body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #0c0711;
+            color: #9f8eb8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: monospace;
+            font-size: 15px;
+        }
+
+        div {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+        }
+
+        .grow {
+            flex-grow: 1;
+        }
+
+        .bg-focus {
+            background: #1a0e26;
+            color: #d06492;
+        }
+    </style>
+</head>
+<body>
+    <div class="grow anti-burnin" id="test">{time} {mobile.network}</div>
+    <div class="bg-focus anti-burnin">{battery.percentage}%</div>
+    <script>
+        var _ = window.exo;
+        // _ is your Exo object, enjoy.
+        // https://docs.nepeta.me/exo
+    </script>
+</body>
+</html>

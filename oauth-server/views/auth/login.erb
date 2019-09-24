@@ -1,0 +1,28 @@
+<div class="flex-center full-height">
+  <div>
+    <div class="login-form">
+      <h1 class="light-text"><%= provider_name %></h1>
+      <% if defined? app %>
+      <h2>Log in to continue to: <%= app[:name] %></h2>
+      <% end %>
+      <% if defined? error %>
+      <div class="error">
+        <%= error %>
+      </div>
+      <% end %>
+      <form action="/auth/login" method="POST">
+        <% if defined? redirect %>
+          <input type="hidden" name="redirect" value="<%= redirect %>">
+        <% end %>
+        <div class="input-group">
+          <%== csrf_tag %>
+          <input type="text" name="username" placeholder="Username" required />
+          <input type="password" name="password" placeholder="Password" required />
+        </div>
+        <div>
+          <button type="submit">Log in</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

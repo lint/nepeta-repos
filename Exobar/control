@@ -1,0 +1,9 @@
+Package: me.nepeta.exobar
+Name: Exobar (Beta)
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), com.rpetrich.rocketbootstrap (>= 1.0.2), me.nepeta.exo, firmware (>= 11.0)
+Version: 0.1.4
+Architecture: iphoneos-arm
+Description: HTML in status bar
+Maintainer: Nepeta
+Author: Nepeta
+Section: Tweaks

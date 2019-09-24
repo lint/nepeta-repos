@@ -1,0 +1,9 @@
+Package: me.nepeta.smoothie
+Name: Smoothie
+Depends: mobilesubstrate
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: Smooth scroll for icon pages
+Maintainer: Nepeta <ominousness@protonmail.com>
+Author: Nepeta <ominousness@protonmail.com>
+Section: Tweaks

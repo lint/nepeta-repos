@@ -1,0 +1,25 @@
+{
+	"ENABLED" = "有効にする";
+	"SHOW_BUTTONS" = '"表示を減らす"・"すべて消去"ボタンを表示';
+	"USE_ICONS" = "ボタンに対してアイコンを使用";
+	"RESPRING" = "SpringBoardを再起動";
+	"ARE_YOU_SURE_TO_RESET_PREFS" = "本当に全ての設定をリセットしますか？このアクションは元に戻せません。";
+	"OK" = "OK";
+	"CANCEL" = "キャンセル";
+	"RESET_PREFS" = "設定をリセットする";
+	"SOURCE_CODE" = "ソースコード";
+	"DONATE_TO_NEPETA" = "Nepetaに寄付";
+	"SUPPORT_ME" = "サポートしてくれませんか？";
+	"OFF" = "オフ";
+	"ICON_THEME" = "アイコンテーマ";
+	"GROUP_BY" = "通知のグループ化方法";
+	"GROUP_BY_APP" = "アプリで";
+	"GROUP_BY_THREAD" = "スレッドで";
+	"SHOW_CLEAR_ALL" = '全通知を消去するボタンを表示';
+	"ANIMATION_SPEED" = 'アニメーション速度';
+	"BUTTON_ICON_STYLE" = 'ボタンのアイコン色';
+	"BUTTON_ICON_TRANSPARENT" = '透明';
+	"BUTTON_ICON_DARK" = 'ダーク';
+	"BUTTON_ICON_LIGHT" = 'ライト';
+	"FORCE_OLD_BEHAVIOR" = '全ての通知をロック画面に表示';
+}

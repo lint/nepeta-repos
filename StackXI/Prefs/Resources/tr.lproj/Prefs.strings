@@ -1,0 +1,13 @@
+{
+    "ARE_YOU_SURE_TO_RESET_PREFS" = "Ayarlar\U0131 s\U0131f\U0131rlamak istedi\U011finizden emin misiniz? Bu geri al\U0131namaz.";
+    CANCEL = "Vazge\U00e7";
+    "DONATE_TO_NEPETA" = "Nepeta'a Ba\U011f\U0131\U015f Yap";
+    ENABLED = Aktif;
+    OK = Tamam;
+    "RESET_PREFS" = "Ayarlar\U0131 s\U0131f\U0131rla ve SpringBoard'u yenile";
+    RESPRING = "SpringBoard'u Yenile";
+    "SHOW_BUTTONS" = "\"K\U00fc\U00e7\U00fclt\" ve \"Temizle\" butonlar\U0131";
+    "SOURCE_CODE" = "Kaynak Kodu";
+    "SUPPORT_ME" = "Bana destek ol!";
+    "USE_ICONS" = "Butonlarda yaz\U0131 yerine ikon";
+}

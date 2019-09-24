@@ -1,0 +1,10 @@
+Package: me.nepeta.notifica
+Name: Notifica
+Depends: mobilesubstrate, me.nepeta.libcolorpicker | org.thebigboss.libcolorpicker (>= 1.6.3), ws.hbang.common (>= 1.11), me.nepeta.libnepeta (>= 0.1.1), firmware (>= 11.0)
+Conflicts: io.ominousness.modernxi
+Version: 0.3.1
+Architecture: iphoneos-arm
+Description: Notification customizer
+Maintainer: Nepeta
+Author: Nepeta
+Section: Tweaks

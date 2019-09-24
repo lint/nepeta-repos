@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = SlydPrefs;
+	cell = PSLinkCell;
+	detail = STUPrefsListController;
+	isController = 1;
+	label = Slyd;
+	icon = icon.png;
+    };
+}

@@ -1,0 +1,20 @@
+{
+  "ENABLED" = "Aktifkan";
+  "SHOW_BUTTONS" = 'Tampilkan "Ciutkan" / "Hapus Semua" buttons';
+  "USE_ICONS" = "Gunakan ikon sebagai ganti teks untuk tombol";
+  "RESPRING" = "Respring";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Apakah kamu yakin ingin menyetel ulang pengaturan? Hal ini tidak dapat dibatalkan.";
+  "OK" = "Baiklah";
+  "CANCEL" = "Batalkan";
+  "RESET_PREFS" = "Kembalikan ke pengaturan awal dan respring";
+  "SOURCE_CODE" = "Kode sumber";
+  "DONATE_TO_NEPETA" = "Berikan donasi untuk Nepeta";
+  "SUPPORT_ME" = "Dukung aku!";
+  "OFF" = "Non-aktif";
+  "ICON_THEME" = "Tema ikon";
+  "GROUP_BY" = "Grup Notifikasi oleh";
+  "GROUP_BY_APP" = "Aplikasi";
+  "GROUP_BY_THREAD" = "Topik";
+  "SHOW_CLEAR_ALL" = 'Tampilkan tombol "Hapus Semua" untuk semua notifikasi';
+  "ANIMATION_SPEED" = 'Kecepatan animasi';
+}

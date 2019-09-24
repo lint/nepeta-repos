@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>HBImageTableCell</string>
+			<key>icon</key>
+			<string>modernxi.png</string>
+		</dict>
+
+		<dict>
+			<key>cellClass</key>
+			<string>HBTwitterCell</string>
+			<key>label</key>
+			<string>Nepeta</string>
+			<key>user</key>
+			<string>NepetaDev</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>io.ominousness.modernxi</string>
+			<key>label</key>
+			<string>ENABLED</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>alternateColors</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>io.ominousness.modernxi</string>
+			<key>label</key>
+			<string>ENABLED_BANNERS</string>
+			<key>key</key>
+			<string>EnabledBanners</string>
+			<key>alternateColors</key>
+			<true/>
+		</dict>
+
+		<!-- Credits -->
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>ModernXI by Nepeta</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>RESPRING</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>resetPrefs:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>isDestructive</key>
+			<true />
+			<key>confirmation</key>
+			<dict>
+				<key>prompt</key>
+				<string>ARE_YOU_SURE_TO_RESET_PREFS</string>
+				<key>title</key>
+				<string>OK</string>
+				<key>okTitle</key>
+				<string>OK</string>
+				<key>cancelTitle</key>
+				<string>CANCEL</string>
+			</dict>
+			<key>label</key>
+			<string>RESET_PREFS</string>
+		</dict>
+
+
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>FROMDERIK_TWITTER</string>
+			<key>subtitle</key>
+			<string>FROMDERIK_SUBTITLE</string>
+			<key>url</key>
+			<string>https://twitter.com/Fr0mDerik</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>GITHUB</string>
+			<key>subtitle</key>
+			<string>SOURCE_CODE</string>
+			<key>url</key>
+			<string>https://github.com/Nepeta/ModernXI</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>DONATE_TO_NEPETA</string>
+			<key>subtitle</key>
+			<string>SUPPORT_ME</string>
+			<key>url</key>
+			<string>https://nepeta.me/donate</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>ModernXI</string>
+</dict>
+</plist>

@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = NereidPrefs;
+	cell = PSLinkCell;
+	detail = NRDPrefsListController;
+	isController = 1;
+	label = Nereid;
+	icon = icon.png;
+    };
+}

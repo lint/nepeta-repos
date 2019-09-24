@@ -1,0 +1,10 @@
+Package: io.ominousness.stackxi
+Name: StackXI
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0), firmware (<= 11.4.1), cy+cpu.arm64
+Version: 0.5.5
+Architecture: iphoneos-arm
+Conflicts: com.ioscreatix.intelix, com.ioscreatix.intelixbeta
+Description: Grouped notifications, iOS 12 style.
+Maintainer: Nepeta <ominousness@protonmail.com>
+Author: Nepeta <ominousness@protonmail.com>
+Section: Tweaks

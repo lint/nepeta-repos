@@ -1,0 +1,21 @@
+{
+  "ENABLED" = "Enabled";
+  "STU_TEXT" = "Text";
+  "SLIDE_TO_UNLOCK" = "slide to unlock";
+  "SHOW_CHEVRON" = "Show the chevron";
+  "DISABLE_HOME" = "Disable home button";
+  "DISABLE_SWIPE" = "Disable swipe up";
+  "RESPRING" = "Respring";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Are you sure you want to reset all your preferences? This cannot be undone.";
+  "OK" = "OK";
+  "CANCEL" = "Cancel";
+  "RESET_PREFS" = "Restore default settings and respring";
+  "GITHUB" = "Github";
+  "SOURCE_CODE" = "Source code";
+  "DONATE_TO_NEPETA" = "Donate to Nepeta";
+  "SUPPORT_ME" = "Support me!";
+  "APPEARANCE" = "Appearance";
+  "DARK" = "Dark";
+  "LIGHT" = "Light";
+  "AUTO" = "Automatic";
+}

@@ -1,0 +1,9 @@
+Package: me.nepeta.2dock
+Name: 2dock
+Depends: mobilesubstrate
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: For when 1 dock row is not enough...
+Maintainer: Nepeta <ominousness@protonmail.com>
+Author: Nepeta <ominousness@protonmail.com>
+Section: Tweaks

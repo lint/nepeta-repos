@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = NotificaPrefs;
+	cell = PSLinkCell;
+	detail = NTFPrefsListController;
+	isController = 1;
+	label = Notifica;
+	icon = icon.png;
+    };
+}

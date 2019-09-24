@@ -1,0 +1,25 @@
+{
+  "ENABLED" = "Enabled";
+  "SHOW_BUTTONS" = 'Show "Collapse" / "Clear All" buttons';
+  "USE_ICONS" = "Use icons instead of text for buttons";
+  "RESPRING" = "Respring";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Are you sure you want to reset all your preferences? This cannot be undone.";
+  "OK" = "OK";
+  "CANCEL" = "Cancel";
+  "RESET_PREFS" = "Restore default settings and respring";
+  "SOURCE_CODE" = "Source code";
+  "DONATE_TO_NEPETA" = "Donate to Nepeta";
+  "SUPPORT_ME" = "Support me!";
+  "OFF" = "Off";
+  "ICON_THEME" = "Icon theme";
+  "GROUP_BY" = "Group notifications by";
+  "GROUP_BY_APP" = "App";
+  "GROUP_BY_THREAD" = "Thread";
+  "SHOW_CLEAR_ALL" = 'Show "Clear All" button over all notifications';
+  "ANIMATION_SPEED" = 'Animation speed';
+  "BUTTON_ICON_STYLE" = 'Button icon color';
+  "BUTTON_ICON_TRANSPARENT" = 'Transparent';
+  "BUTTON_ICON_DARK" = 'Dark';
+  "BUTTON_ICON_LIGHT" = 'Light';
+  "FORCE_OLD_BEHAVIOR" = 'Force all notifications to appear on lock screen';
+}

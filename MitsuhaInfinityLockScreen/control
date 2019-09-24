@@ -1,0 +1,9 @@
+Package: me.nepeta.mitsuhainfinity-lockscreen
+Name: Mitsuha Infinity - Lock Screen
+Depends: mobilesubstrate, me.nepeta.mitsuhainfinity
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: Audio visualizer for the lock screen
+Maintainer: Nepeta
+Author: Nepeta
+Section: Tweaks

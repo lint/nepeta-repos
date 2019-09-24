@@ -1,0 +1,10 @@
+config:
+  public: false
+  domain: 'localhost'
+  hashids:
+    salt:
+      app: 'saltysalt'
+      user: 'saltysalt2'
+    length: 16
+  session:
+    secret: 'test'

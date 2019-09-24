@@ -1,0 +1,13 @@
+{
+  "ENABLED" = "Bật";
+  "SHOW_BUTTONS" = 'Hiển thị nút "Thu Gọn" / "Xóa Hết"';
+  "USE_ICONS" = "Sử dụng biểu tượng hay cho chữ trên nút";
+  "RESPRING" = "Respring";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Bạn có chắc chắn muốn đưa về cài đặt gốc? Tác vụ này sẽ không thể thay đổi.";
+  "OK" = "OK";
+  "CANCEL" = "Hủy";
+  "RESET_PREFS" = "Đưa về cài đặt gốc và Respring";
+  "SOURCE_CODE" = "Mã nguồn";
+  "DONATE_TO_NEPETA" = "Đóng góp cho tác giả Nepeta";
+  "SUPPORT_ME" = "Hỗ trợ tôi!";
+}

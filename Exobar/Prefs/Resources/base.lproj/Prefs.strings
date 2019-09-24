@@ -1,0 +1,17 @@
+{
+  "ENABLED" = "Enabled";
+  "RESPRING" = "Respring";
+  "REFRESH" = "Refresh";
+  "GLOBAL_SETTINGS" = "Global settings";
+  "THEME_SETTINGS" = "Theme settings";
+  "NO_THEME_SETTINGS" = "The currently selected theme has no settings.";
+  "DISABLE_BURNIN_PROTECTION" = "Disable OLED burn-in protection";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Are you sure you want to reset all your preferences? This cannot be undone.";
+  "OK" = "OK";
+  "CANCEL" = "Cancel";
+  "RESET_PREFS" = "Restore default settings and respring";
+  "SOURCE_CODE" = "Source code";
+  "DONATE_TO_NEPETA" = "Donate to Nepeta";
+  "SUPPORT_ME" = "Support me!";
+  "THEME" = "Theme";
+}

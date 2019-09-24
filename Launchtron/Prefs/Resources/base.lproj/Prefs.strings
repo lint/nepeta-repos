@@ -1,0 +1,29 @@
+{
+  "MODE" = "Mode";
+  "DISABLED" = "Disabled";
+  "RECENT" = "Recent apps";
+  "SELECTED" = "Selected apps";
+  "APPS_SELECT" = "Select apps to show";
+  "APPS_DISABLE" = "Disable Launchtron in applications";
+  "APPS" = "Applications";
+  "MAX_ICONS" = "Recent apps: Maximum";
+  "RIGHT" = "Right";
+  "LEFT" = "Left";
+  "DYNAMIC" = "Dynamic";
+  "SIDE" = "Side";
+  "STYLE" = "Style";
+  "HALF_CIRCLE" = "Half circle";
+  "FULL_CIRCLE" = "Full circle";
+  "FOLLOW_VERTICAL" = "Follow vertical location of the finger";
+  "DISABLE_SWIPE" = "Disable swipe gesture";
+  "ANIMATION_SPEED" = "Animation speed";
+  "RESPRING" = "Respring";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Are you sure you want to reset all your preferences? This cannot be undone.";
+  "OK" = "OK";
+  "CANCEL" = "Cancel";
+  "RESET_PREFS" = "Restore default settings and respring";
+  "GITHUB" = "Github";
+  "SOURCE_CODE" = "Source code";
+  "DONATE_TO_NEPETA" = "Donate to Nepeta";
+  "SUPPORT_ME" = "Support me!";
+}

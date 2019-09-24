@@ -1,0 +1,26 @@
+{
+  "ENABLED" = "启用";
+  "SHOW_BUTTONS" = '显示“折叠”/“全部清除”按钮';
+  "USE_ICONS" = "按钮使用图标而不是文本";
+  "RESPRING" = "注销";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "您确定要重置所有偏好设置吗？ 这将不能被撤销。";
+  "OK" = "好的";
+  "CANCEL" = "取消";
+  "RESET_PREFS" = "恢复默认设置并注销";
+  "SOURCE_CODE" = "源代码";
+  "DONATE_TO_NEPETA" = "捐赠给Nepeta";
+  "SUPPORT_ME" = "支持我!";
+  "OFF" = "关闭";
+  "iOS 12" = "iOS 12样式";
+  "ICON_THEME" = "图标主题";
+  "GROUP_BY" = "通知分组";
+  "GROUP_BY_APP" = "按应用分组";
+  "GROUP_BY_THREAD" = "按索引分组";
+  "SHOW_CLEAR_ALL" = '显示“全部清除”按钮';
+  "ANIMATION_SPEED" = '动画速度';
+  "BUTTON_ICON_STYLE" = '按钮图标颜色';
+  "BUTTON_ICON_TRANSPARENT" = '透明';
+  "BUTTON_ICON_DARK" = '黑暗';
+  "BUTTON_ICON_LIGHT" = '明亮';
+  "FORCE_OLD_BEHAVIOR" = '在锁定屏幕显示所有通知';
+}

@@ -1,0 +1,25 @@
+{
+  "ENABLED" = "Aktiviert";
+  "SHOW_BUTTONS" = 'Zeige "Weniger" / "Entfernen" Buttons';
+  "USE_ICONS" = "Icons anstelle von Text für Buttons";
+  "RESPRING" = "Respring";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Sind Sie sicher, dass Sie alle Einstellungen zurücksetzen möchten? Dies kann nicht rückgängig gemacht werden.";
+  "OK" = "OK";
+  "CANCEL" = "Abbrechen";
+  "RESET_PREFS" = "Einstellungen zurücksetzen und respringen";
+  "SOURCE_CODE" = "Quellcode";
+  "DONATE_TO_NEPETA" = "Spende an Nepeta";
+  "SUPPORT_ME" = "Unterstütze mich!";
+  "OFF" = "Aus";
+  "ICON_THEME" = "Icon Theme";
+  "GROUP_BY" = "Mitteilungen gruppieren nach";
+  "GROUP_BY_APP" = "App";
+  "GROUP_BY_THREAD" = "Thread";
+  "SHOW_CLEAR_ALL" = '"Entfernen" Button über allen Mitteilungen';
+  "ANIMATION_SPEED" = 'Animationsgeschwindigkeit';
+  "BUTTON_ICON_STYLE" = 'Farbe der Buttons';
+  "BUTTON_ICON_TRANSPARENT" = 'Transparent';
+  "BUTTON_ICON_DARK" = 'Dunkel';
+  "BUTTON_ICON_LIGHT" = 'Hell';
+  "FORCE_OLD_BEHAVIOR" = 'Alle Mitteilungen auf dem Sperrbildschirm anzeigen';
+}

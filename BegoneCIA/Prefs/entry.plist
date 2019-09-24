@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = BegoneCIAPrefs;
+	cell = PSLinkCell;
+	detail = BCPrefsListController;
+	isController = 1;
+	label = BegoneCIA;
+	icon = icon.png;
+    };
+}

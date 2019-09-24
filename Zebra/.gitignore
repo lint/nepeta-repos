@@ -1,0 +1,5 @@
+.theos/
+Supersling/.theos
+/packages/
+.DS_Store
+xcuserdata/

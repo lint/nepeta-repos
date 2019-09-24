@@ -1,0 +1,10 @@
+{
+  "DISABLE_IDLE_TIMER" = "在锁屏上禁用自动锁定";
+  "EXPERIMENTAL_COLORS" = "实验颜色计算";
+  "DEFAULT" = "Default";
+  "EXPERIMENTAL" = "Experimental";
+  "AXON" = "Axon";
+  "HD_ICONS" = "高清/主题图标";
+  "COLORIZE_SECTION" = "着色iOS 12部分按钮";
+  "DISABLE_ICON_SHADOW" = "禁用图标阴影";
+}

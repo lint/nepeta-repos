@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = SelectorPrefs;
+	cell = PSLinkCell;
+	detail = SLCPrefsListController;
+	isController = 1;
+	label = Selector;
+	icon = icon.png;
+    };
+}

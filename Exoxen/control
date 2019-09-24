@@ -1,0 +1,9 @@
+Package: me.nepeta.exoxen
+Name: Exoxen (Beta)
+Depends: mobilesubstrate, me.nepeta.exo, firmware (>= 11.0), com.matchstic.xenhtml
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: Exo compatibility for Xen HTML
+Maintainer: Nepeta
+Author: Nepeta
+Section: Tweaks

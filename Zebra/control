@@ -1,0 +1,11 @@
+Package: xyz.willy.zebra
+Name: Zebra (BETA)
+Version: 1.0~beta8
+Architecture: iphoneos-arm
+Depends: dpkg
+Description: A Useful Package Manager
+Maintainer: Wilson Styres <wilson@styres.me>
+Author: Wilson Styres <wilson@styres.me>
+Section: Packaging
+Depiction: https://xtm3x.github.io/repo/depictions/xyz.willy.zebra/
+Tag: purpose::x

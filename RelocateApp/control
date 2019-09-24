@@ -1,0 +1,9 @@
+Package: me.nepeta.relocateapp
+Name: Relocate Application
+Version: 0.1.1
+Architecture: iphoneos-arm
+Depends: firmware (>= 9.0), me.nepeta.relocate
+Description: Application for Relocate
+Maintainer: Nepeta
+Author: Nepeta
+Section: Utilities

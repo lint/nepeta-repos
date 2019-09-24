@@ -1,0 +1,99 @@
+html {
+  font-size: 20px;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "SF Pro Display", "SF Pro", "Helvetica Neue", "Roboto", "Segoe UI", Helvetica, Arial, Verdana, sans-serif;
+  margin: 10px 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App span {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  border-radius: 3px;
+  background: #151515;
+  color: #fff;
+  cursor: pointer;
+  margin: 0.2rem;
+  font-weight: bold;
+  transition: 0.1s all ease-in-out;
+}
+
+.App span.nothing {
+  color: transparent;
+}
+
+.App span.uncovered {
+  background: transparent;
+  cursor: default;
+}
+
+.App span.exploded {
+  background: red !important;
+}
+
+.App span:hover {
+  opacity: 0.9;
+}
+
+.board {
+  transition: 0.1s all ease-in-out;
+}
+
+.logo {
+  width: 40px;
+  display: block;
+  margin: 25px auto;
+}
+
+.gameOver {
+  opacity: 0.5;
+  filter: blur(2px);
+}
+
+.wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.popup {
+  z-index: 50;
+  display: inline-block;
+  position: absolute;
+  top: 1rem;
+}
+
+button {
+  background: #512673;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  flex: 1;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = LaunchtronPrefs;
+	cell = PSLinkCell;
+	detail = LTPrefsListController;
+	isController = 1;
+	label = Launchtron;
+	icon = icon.png;
+    };
+}

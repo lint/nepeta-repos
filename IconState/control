@@ -1,0 +1,9 @@
+Package: me.nepeta.iconstate
+Name: IconState
+Depends: mobilesubstrate, firmware (>= 9.0)
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: Preserve custom icon layouts between reboots
+Maintainer: Nepeta <ominousness@protonmail.com>
+Author: Nepeta <ominousness@protonmail.com>
+Section: Tweaks

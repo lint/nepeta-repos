@@ -1,0 +1,17 @@
+{
+  "ENABLED" = "활성화";
+  "STU_TEXT" = "텍스트";
+  "SLIDE_TO_UNLOCK" = "밀어서 잠금해제";
+  "SHOW_CHEVRON" = "슬라이더 표시";
+  "DISABLE_HOME" = "홈버튼을 눌러서 잠금해제 비활성화";
+  "DISABLE_SWIPE" = "위로 쓸어올려서 잠금해제 비활성화";
+  "RESPRING" = "리스프링";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "정말로 설정파일을 초기화하시겠습니까? 이 작업은 되돌릴 수 없습니다.";
+  "OK" = "확인";
+  "CANCEL" = "취소";
+  "RESET_PREFS" = "설정을 초기화하고 리스프링";
+  "GITHUB" = "Github";
+  "SOURCE_CODE" = "소스코드";
+  "DONATE_TO_NEPETA" = "Nepeta에게 기부하기";
+  "SUPPORT_ME" = "지원해주세요!";
+}

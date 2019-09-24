@@ -1,0 +1,9 @@
+Package: me.nepeta.swipeshot
+Name: Swipeshot
+Depends: mobilesubstrate, firmware (>= 9.0)
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: Take screenshots by swiping down from the status bar with three fingers at once.
+Maintainer: Nepeta
+Author: Nepeta
+Section: Tweaks

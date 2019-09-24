@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = DockyPrefs;
+	cell = PSLinkCell;
+	detail = DCKPrefsListController;
+	isController = 1;
+	label = Docky;
+	icon = icon.png;
+    };
+}

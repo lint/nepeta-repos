@@ -1,0 +1,13 @@
+{
+  "ENABLED" = "Abilitato";
+  "SHOW_BUTTONS" = 'Mostra i pulsanti "Unisci" / "Cancella"';
+  "USE_ICONS" = "Usa delle icone al posto del testo";
+  "RESPRING" = "Respring";
+  "ARE_YOU_SURE_TO_RESET_PREFS" = "Sei sicuro di voler resettare le impostazioni? Questo comando non può essere annullato.";
+  "OK" = "Ok";
+  "CANCEL" = "Annulla";
+  "RESET_PREFS" = "Reimposta ed effettua un respring";
+  "SOURCE_CODE" = "Codice sorgente";
+  "DONATE_TO_NEPETA" = "Dona ad Nepeta";
+  "SUPPORT_ME" = "Supportami!";
+}

@@ -1,0 +1,28 @@
+{
+	"ARE_YOU_SURE_TO_RESET_PREFS" = "您确定要重置所有偏好设置吗？ 这不能被撤消。";
+	"BANNERS" = "横幅";
+	"CANCEL" = "取消";
+	"DETAILS" = "详情";
+	"DONATE_TO_NEPETA" = "捐赠给Nepeta";
+	"ENABLED" = "启用";
+	"NOTIFICATIONS" = "通知";
+	"NOTIFICATION_CENTER" = "通知中心";
+	"NOW_PLAYING" = "正在播放";
+	"OK" = "好的";
+	"PRESET" = "预设";
+	"RESET_PREFS" = "恢复默认设置并注销设备";
+	"RESPRING" = "注销设备";
+	"RESRPING_NEEDED" = "在此处修改设置后，您将需要注销设备后才能生效。";
+	"SETTINGS" = "设置";
+	"SOURCE_CODE" = "源代码";
+	"SUPPORT_ME" = "支持我!";
+	"TEST_BANNER" = "测试横幅";
+	"TEST_NOTIFICATIONS" = "测试通知";
+	"WIDGETS" = "小部件";
+  "EXPERIMENTAL" = "实验设置";
+	"SAVE_SETTINGS" = "Save current settings";
+	"SHARE_SETTINGS" = "Share current settings";
+	"IMPORT_SETTINGS" = "Import shared preset";
+  "COPY_N_TO_B" = "Copy: Notifications -> Banners";
+  "COPY_B_TO_N" = "Copy: Banners -> Notifications";
+}
