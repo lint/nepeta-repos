@@ -1,0 +1,14 @@
+# pack-refs with: peeled fully-peeled sorted 
+1e870b0d7c1c84ea1be86acc3166ac84dc7a8174 refs/remotes/origin/master
+20ce0f971230ddc42dba7c92f9853f0cd2f9fa5a refs/remotes/origin/mediaserverd
+f033bc2cdaacd8b9854103b86b779e1d85907a28 refs/remotes/origin/tidal-support
+20ce0f971230ddc42dba7c92f9853f0cd2f9fa5a refs/tags/0.4.0
+4a9dea7d46192559f33240b548eac344dfcfbb46 refs/tags/0.4.1
+3fae12911437ec370564fb3814010dc2db7c5e21 refs/tags/0.4.2
+8029c40b2728aaeeb06143f3bd98f0440a8fbd44 refs/tags/0.5
+18f16e072a05768741a1e8cdf1eda6aeab41e548 refs/tags/v0.0.2
+a5b3a0d9044e052f74d6ab3d909204596d083866 refs/tags/v0.0.5
+e03e2191c3267fb4ec5c3afe55596f9721db3ac1 refs/tags/v0.1.0
+c240928e9a3bd9e185260487fa0a8c3fe8232765 refs/tags/v0.1.1
+c0bf0704472faaf10d0a6ce232d307a2fd11dabd refs/tags/v0.1.2
+f36c1a2a29e19e1ce1a75925bd24fbe84517ff15 refs/tags/v0.2.0

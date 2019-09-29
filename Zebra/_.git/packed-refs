@@ -1,0 +1,16 @@
+# pack-refs with: peeled fully-peeled sorted 
+e5a15bd8366f38985d1fc6b16b70af3caaac830d refs/remotes/origin/dependencies
+e621d45d37e324c1759e77525d48bc87065414e9 refs/remotes/origin/hyena
+b36958797df64605955ce105fe86f092dc7a83a4 refs/remotes/origin/master
+f94b96247e764ea68c270ad09d099196b9b2dcf8 refs/remotes/origin/mem-leaks
+b36958797df64605955ce105fe86f092dc7a83a4 refs/remotes/origin/package_icons
+f90b00791e5b8c3d4219d49b93e177aec7d49172 refs/remotes/origin/parsel
+e06a627cec2c6d6d0af3915ab86cb5491ba30720 refs/remotes/origin/zebra
+2aec8e7aefd12b68d6b9a16d8bf64fa1653e0fdd refs/tags/v1.0-beta1
+c05175e78e9aab0b9e1b01b2446b09a3c2c50f2e refs/tags/v1.0-beta2
+7b56ebe319be96207393eb2fcb71c5bdf7463056 refs/tags/v1.0-beta3
+e6191260c29bd3479753a1d3bec3d6b842aaf387 refs/tags/v1.0-beta4
+dbcb9158efb2db9fc0cb620ac2b6d2c85e60100a refs/tags/v1.0-beta5
+c43ee6f64121db0bce0f844d2009302d25aa2ebf refs/tags/v1.0-beta6
+b1cdb0d120c10dcc33fd6565af0696bd9ca87371 refs/tags/v1.0-beta7
+ddb1a97f8cb9dd14b34c5200603cd333f73f5fa3 refs/tags/v1.0-beta8

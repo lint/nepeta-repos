@@ -1,0 +1,10 @@
+# pack-refs with: peeled fully-peeled sorted 
+5a435d52ce7fe58987ce780167aa893e86fb7ff5 refs/remotes/origin/activator-iOS-9
+8998bb626ecad92773ab0d8af8e04addc187cec3 refs/remotes/origin/master
+ba147d1f57e6b3086c11e0190d8d89f8e91b5670 refs/remotes/origin/rbs-support
+d38553481416631497a207c9596ad74be6afd5d8 refs/tags/0.0.10
+decf3cea29d1b904169f3150dbb8c1f113f02d73 refs/tags/0.0.5
+7a058bbec8c3aebca2cf40799264b73b81f2f3c5 refs/tags/0.0.5e
+b7470168958b48da30009dfdfb2e9b802782947d refs/tags/0.0.5e2
+f76fd9b50dcceae345bb6eae430ba7c90f4291c1 refs/tags/0.0.8
+5be938861f62145584c6e295ab9873fc83bfdb28 refs/tags/0.0.9
